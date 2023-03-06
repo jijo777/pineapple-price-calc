@@ -3,6 +3,8 @@ const moment = require("moment");
 const mongoose = require("mongoose");
 const schedule = require("node-schedule");
 
+let url = ''; //Enter the api url for fetching the price.
+
 async function main() {
   await mongoose.connect("mongodb://localhost:27017/vazha");
 }
@@ -21,7 +23,7 @@ const Price = mongoose.model("Price", priceSchema);
 let limit = 30;
 let i = 0;
 function getPineappleData(tdate) {
-  let url = ''; //Enter the api url for fetching the price.
+  
   if(url == '') {
     console.log("Please enter the url")
     return;
