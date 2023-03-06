@@ -8,7 +8,7 @@ After cloning
 npm install 
 ```
 
-Thenenter the correct url to fetch the pricing data
+Then enter the correct url to fetch the pricing data
 
 To run script
 
