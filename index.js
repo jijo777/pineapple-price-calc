@@ -6,7 +6,7 @@ const schedule = require("node-schedule");
 let url = ''; //Enter the api url for fetching the price.
 
 async function main() {
-  await mongoose.connect("mongodb://localhost:27017/vazha");
+  await mongoose.connect("mongodb://localhost:27017/pineapple");
 }
 main().catch((err) => console.log(err));
 
