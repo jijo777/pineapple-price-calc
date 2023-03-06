@@ -1,4 +1,6 @@
-# pineapple-price-calc
+# Pineapple price fetching scrit
+
+The script fetch the pricing in a batch process and saves the date to MongoDB
 
 After cloning 
 
