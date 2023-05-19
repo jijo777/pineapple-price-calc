@@ -3,7 +3,7 @@ const moment = require("moment");
 const mongoose = require("mongoose");
 const schedule = require("node-schedule");
 
-let url = ''; //Enter the api url for fetching the price.
+let url = 'https://vazhakulampineapple.in/get_data.php'; //Enter the api url for fetching the price.
 
 async function main() {
   await mongoose.connect("mongodb://localhost:27017/pineapple");
