@@ -1,4 +1,4 @@
-# Pineapple price fetching scrit
+# Pineapple price fetching script
 
 The script fetch the pricing in a batch process and saves the date to MongoDB
 
